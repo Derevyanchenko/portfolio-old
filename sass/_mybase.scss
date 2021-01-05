@@ -1,0 +1,99 @@
+// my styles (Danil)
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	box-sizing: border-box;
+}
+li {
+	list-style-type: none;
+}
+
+dl, ol, ul {
+  margin-bottom: 0;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	display: block;
+	background: transparent;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input {
+	&:focus {
+		outline: none;
+	}
+}
+
+body {
+	color: #222;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+h1, h2, h3,h4, h5, h6 {
+	font-weight: 700;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    flex-grow: 1;
+
+}
+
+
+.slick-slide {
+	outline: none;
+}
+
+  
+  button,
+  input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+// @media (max-width: 1440px) {
+// 	.container {
+// 		max-width: 1200px;
+// 	}
+// }
+
+
+
+// @media (max-width: 1000px) {
+// 	.container {
+// 		max-width: 760px;
+// 	}
+// }
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 480px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		max-width: 360px;
+		padding: 0 10px;
+	}
+}
